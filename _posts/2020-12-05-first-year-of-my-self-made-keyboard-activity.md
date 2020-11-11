@@ -211,46 +211,51 @@ That's it! これだけです。
 
 #### 回路設計
 
-ピンとピンの間にスイッチを配置し、GPIOピンから他のGPIOピンへ向かう箇所にダイオード（D1, D5, D9）を挿入します。  
+- ピンとピンの間にスイッチを配置します。  
 
-| | Pin1 | Pin2 | Pin3|
+    | | Pin1 | Pin2 | Pin3|
 |:-:|:-:|:-:|:-:|
 |Pin1| \ | SW21 | SW31 |
 |Pin2| SW12 | \ | SW32 |
 |Pin3| SW13 | SW23 | \ |
+
+- GPIOピンから他のGPIOピンへ向かう箇所にダイオード（D1, D5, D9）を挿入します。  
 
 ![回路図](/assets/2020-12-05/RoundRobinCircuitDiagram.png)
 
 
 #### QMKファームウェア整備
 
-##### rules.mk
+- rules.mk  
 カスタムマトリクスを使用する設定と、総当たりマトリクス方式でのマトリクススキャン方法を記述したmatrix_rr.cを読み込む指定を追加します。  
 
-```
+    ```
 CUSTOM_MATRIX = yes
 SRC += matrix_rr.c
 ```
 
-matrix_rr.cはquantum/matrix.c（※）を改変して作成し、rules.mkと同じフォルダへ配置します。  
-[ここ](/assets/2020-12-05/matrix_rr.c)にサンプルを用意しました。
+    matrix_rr.cはquantum/matrix.c（※）を改変して作成し、rules.mkと同じフォルダへ配置します。  
+    [ここ](/assets/2020-12-05/matrix_rr.c)にサンプルを用意しました。
 
-※：Pro Micro2個の分離型は、quantum/split_common/matrix.c
+    ※：Pro Micro2個の分離型は、quantum/split_common/matrix.cを改変します。
 
-##### config.h
+- config.h  
 使用するピンの数と、ピンの番号を指定します。  
 総当たりマトリクスでは、ROW、COLともに同じピン数、同じピン番号になります。
 
+    ```
     #define MATRIX_ROWS 3
     #define MATRIX_COLS 3
 
     #define MATRIX_ROW_PINS { B3, B2, B6 }
     #define MATRIX_COL_PINS { B3, B2, B6 }
+    ```
 
-##### keyboard.h
+- keyboard.h  
 レイアウトを指定します。  
 ピンとピンの間にスイッチを配置していない箇所は、KC_NOとします。
 
+    ```
     #define LAYOUT( \
         K12, K21, K31, \
         K13, K23, K32  \
@@ -260,12 +265,15 @@ matrix_rr.cはquantum/matrix.c（※）を改変して作成し、rules.mkと同
         { K12,   KC_NO, K32   }, \
         { K13,   K23,   KC_NO } \
     }
-
+    ```
 
 ## まとめ
 
-[クールなURIは変わらない](https://www.kanzaki.com/docs/Style/URI)
+自作キーボードキットの組み立てから始めて、1年で
+
 アドカレは一つの夢
+アドカレは貴重な情報源
+[クールなURIは変わらない](https://www.kanzaki.com/docs/Style/URI)
 サンボを聴け
 「売ってないから、自分で作る」という、とても単純なことを本気でやった製作
 1、2年遅れ
