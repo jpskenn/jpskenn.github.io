@@ -19,8 +19,7 @@ date: 2020-12-05
 ## 自己紹介
 
 2020年現在、40歳代の中盤。  
-情報処理系の学部をゆっくり卒業してソフトウェア開発会社に就職したけど、Javaをちゃんと理解する前になんだかしんどくなってやめちゃった人。  
-今は事務職。紙とハンコとFAXと、Windows XPが現役の職場だよ♪
+情報処理系の学部をゆっくり卒業してソフトウェア開発会社に就職したけど、Javaをちゃんと理解する前になんだかしんどくなってやめちゃって、今は事務職。
 
 Java、Perl、VBAあたりの開発言語はわかるけど、他はあんまり…  
 QMKのCは、なんとなくでやっています。  
@@ -31,9 +30,9 @@ LEDの抵抗の計算は2019年10月に初めてやりました。
 
 ## 自キとの出会い
 
-大学生の頃からキーボードに興味があり、ヤフオクでIBM Model Mを手に入れたり、計算機室にあったX端末のキーボードに惚れ込んだりしていました。
+大学生の頃からキーボードに興味を持ちはじめ、ヤフオクでIBM Model Mを手に入れたり、計算機室にあったX端末のキーボードに惚れ込んだりしていました。
 
-社会人になってしばらくはIBMのSpace Saver Keyboard IIを使っていましたが、英語配列のRealforce 101が発売されると割と早めに手に入れていました。また、ソフトウェア開発会社ではHHKB Professionalを使っていました。
+社会人になってしばらくはSpace Saver Keyboard IIを使っていましたが、英語配列のRealforce 101が発売されると割と早めに手に入れていました。また、ソフトウェア開発会社ではHHKB Professionalを使っていました。
 
 事務職になってからはテンキー付きのRealforce 101を愛用していましたが、長年の使用でくたびれてきたためRealforce R2 静音30gに乗り換えたところ、とても具合がよく大満足しました。  
 その大満足を受け、家のMacで使っていたLogicool K480のひどい打鍵感をなんとかしようと、ネットを彷徨って見つけたのが自作キーボードでした。
@@ -75,6 +74,7 @@ ErgoDashを使い込むうちに自分用のキーボードを作りたいとい
 そんなとき、過去のアドベントカレンダーからe3w2q氏の”[レイアウトを試行錯誤しやすくするために作った自作キーボード用基板の開発で試行錯誤した話](https://e3w2q.github.io/7/)”という記事を見つけ、基板を作らずに自由なレイアウトが作れる[SU120](https://github.com/e3w2q/su120-keyboard)の存在を知りました。  
 
 ![Elecrowから到着したSU120 Rev.7基板](/assets/2020-12-05/IMG_0889.jpeg)
+
 「これなら基板設計なしでキーボードを作れる！」と、早速GitHubで公開されていた基板データをElecrowへ発注しましたが、一番安い発送方法のRegistered Mailにしたら到着まで1ヶ月ほど待たされました。
 
 
@@ -88,6 +88,7 @@ ErgoDashを使い込むうちに自分用のキーボードを作りたいとい
 
 
 ![NumAtreus Plus8](/assets/2020-12-05/DSC_6824.jpeg)
+
 入門書片手に、KiCadでキープレート兼ベースプレートを設計し、サリチル酸氏の”[PCBのマスクとシルクでオリジナルプレートを作ろう！](https://salicylic-acid3.hatenablog.com/entry/introduction_to_pcb_design)”を参考に、赤レジストに首里城とシーサーのイラストをつけました。  
 
 
@@ -102,11 +103,13 @@ ErgoDashを使い込むうちに自分用のキーボードを作りたいとい
 自分で作る自分用のキーボードです。
 
 ![Colice, SU120によるプロト版](/assets/2020-12-05/IMG_0987.jpeg)
+
 SU120を使って作成したプロト版。  
 約5度の傾斜角をつけた段ボールに乗せ、普段使いしながらレイアウトを調整していました。  
 プロト版では、Pro Microを2個使用した分離型キーボードの回路構成でした。
 
 ![Colice, 完成](/assets/2020-12-05/DSC_6907.jpeg)
+
 合体構造を試行錯誤したり、総当たりマトリクスを採用してPro Micro1個だけで動作させたり、トップマウント構造に難儀したり…  
 プロト版や試作版を経て、製作開始から5ヶ月で完成に至りました。  
 
@@ -128,6 +131,7 @@ SU120を使って作成したプロト版。
 特定のキーでゴーストが発生して、使い物になりませんでした。
 
 ![NumAtreus_Plus8 RR, 手配線](/assets/2020-12-05/IMG_1353.jpeg)
+
 色々やっているうちに**奇跡的に不具合を回避する方法を発見し（※1）**、総当たりマトリクスを採用した[Atreus RR](https://github.com/jpskenn/AtreusRR)（※2）が完成しました。
 
 電気回路がちょっとわかり、QMKファームウェアで独自マトリクスを使う方法を覚え、総当たりマトリクスが使えるようになりました。
@@ -141,59 +145,65 @@ SU120を使って作成したプロト版。
 
 通常のロースタガ配列でそこそこ満足という気持ちと、左右対象じゃなかったり、右手のModキーが遠かったりするのをなんとかしたいという想いから、ロースタガとオルソリニアを組み合わせた、GH60型ケース互換の60%キーボード、[Jones](https://github.com/jpskenn/Jones)を作りました。  
 
-![Jones v.0.3.1 w/ KBDfans 5° Case](/assets/2020-12-05/DSC_7266.jpeg)
-回路と基板はai03氏の”[PCB Designer Guide](https://wiki.ai03.com/books/pcb-design/chapter/pcb-designer-guide)”と”[Voyager60](https://github.com/ai03-2725/Voyager60)”を参考にしつつ、2音同時発音のスピーカーや、ロータリーエンコーダを搭載し、総当たりマトリクスを採用しています。  
 
-過去のアドベントカレンダーで、marksard氏も”[60%トレイマウントケースでTS配列](https://marksard.github.io/2019/12/13/about-treadstone60/)”という記事で、同様の手法でキーボードを作成されています。  
+過去のアドベントカレンダーの記事、”[60%トレイマウントケースでTS配列 - Treadstone60 -](https://marksard.github.io/2019/12/13/about-treadstone60/)”にあるように、marksard氏も同様の手法でキーボードを作成されています。  
+
+![Jones v.0.3.1 w/ KBDfans 5° Case](/assets/2020-12-05/DSC_7266.jpeg)
+
+40%キーボードに数字行とカーソルなどを追加して60%ケースに入れたような[レイアウト](http://www.keyboard-layout-editor.com/#/gists/54a1c1fe1192d83c5ded8b8e7998a82b)になり、コンパクトで軽快な運指が心地よく感じられます。  
+Realforceがサブにまわってしまうくらい、非常に良い具合の出来となりました。
+
+
+
+
 
 
 ![Jones v.0.3 JPスタイル w/ 60%プラスチックケース](/assets/2020-12-05/DSC_7205.jpeg)
 
-少しずつバージョンアップを重ね、v.0.3では[レイアウト](http://www.keyboard-layout-editor.com/#/gists/54a1c1fe1192d83c5ded8b8e7998a82b)が増え、JPスタイルの上下逆向きISOエンターでアピール度も高まりました。
+少しずつバージョンアップを続けており、v.0.3では[レイアウト](http://www.keyboard-layout-editor.com/#/gists/54a1c1fe1192d83c5ded8b8e7998a82b)にJPスタイルを追加し、上下逆向きISOエンターでアピール度も高まりました。
+
+回路と基板はai03氏の”[PCB Designer Guide](https://wiki.ai03.com/books/pcb-design/chapter/pcb-designer-guide)”と”[Voyager60](https://github.com/ai03-2725/Voyager60)”を参考にしつつ、総当たりマトリクスを採用して、ロータリーエンコーダや2音同時発音のスピーカーを搭載しています。  
 
 その気になれば、さらっと曲を演奏したりもできます。
 <blockquote class="twitter-tweet" data-dnt="true"><p lang="ja" dir="ltr">Gimme! Gimme! Gimme!<a href="https://twitter.com/hashtag/Jones_kbd?src=hash&amp;ref_src=twsrc%5Etfw">#Jones_kbd</a> <a href="https://t.co/frBi9FMDjq">pic.twitter.com/frBi9FMDjq</a></p>&mdash; Takeshi Nishio (@jpskenn) <a href="https://twitter.com/jpskenn/status/1319242096478310400?ref_src=twsrc%5Etfw">October 22, 2020</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-キーレイアウトの試行錯誤のしかたを身に付け、Pro Microを使わずにキーボードを作る方法を学び、部品の選定や配置、製造のやり方についても知ることができました。  
-MCUなどの表面実装部品の半田付け技術が大きく向上しました。
+キーレイアウトの試行錯誤のしかたを身に付け、Pro Microを使わずにキーボードを作る方法を学び、部品の選定や配置、製造のやり方についても知ることができ、MCUなどの表面実装部品の半田付け技術が大きく向上しました。  
+また、心地良い打鍵を得るためには何をどうしたらよいか考えるようになりました。
 
 ### STM32F303評価ボード [STMeishi](https://github.com/jpskenn/STMeishi), 2020年10月〜現在
 
-大きなサイズのファームウェアが使いたくなり、STM32F303を使った名刺サイズの評価用マクロパッド、[STMeishi](https://github.com/jpskenn/STMeishi)を作りました。
+大きなサイズのファームウェアを使いたくなり、STM32F303を使った名刺サイズの評価用マクロパッド、[STMeishi](https://github.com/jpskenn/STMeishi)を作りました。
 
 ![STMeishi v.1](/assets/2020-12-05/IMG_2025.jpeg)
 電源LEDが点灯するだけで、ひとっつも動作しません。  
 ああああああああ…  
 USBブートしてくれません。っていうかMCUが動作してるのかさえわからないです😭
 
-失敗から何かを学ぶ予定。
+失敗から何かを学ぶ予定です。
 
 ## 総当たりマトリクスのご紹介
 
-Atreus RRの製作中に、偶然使えるようになった総当たりマトリクスを紹介します。
+Atreus RRの製作中に偶然使えるようになった”総当たりマトリクス”を紹介します。
 
 ### 総当たりマトリクスとは
 
-IKeJI氏の”[キーボードのマトリクス方式の分類](https://blog.ikejima.org/make/keyboard/2019/12/14/keyboard-circuit.html)”で取りあげられている”2乗マトリクス”に、ATMega32u4向けのゴースト回避方法（※）を追加したマトリクス方式です。  
-N個のピンで、N(N-1)個のキーが使用できます。
+IKeJI氏の”[キーボードのマトリクス方式の分類](https://blog.ikejima.org/make/keyboard/2019/12/14/keyboard-circuit.html)”で取りあげられている”2乗マトリクス”に、Pro Microを含むATMega32u4向けのゴースト回避方法（※）を追加したマトリクス方式です。  
+N個のピンで、N(N-1)個のキーを使用することができます。
 
 回路図が総当たり戦のリーグ表ような形になるため、”総当たりマトリクス”という呼称にしました。  
 
-※：Pro Microを含む、ATMega32u4の特性に絞り込んだゴースト回避方法です。他のMCUでも、GPIOピンの特性が合えば動作するかもしれません。
+※：他のMCUでも、GPIOピンの特性が合えば動作するかもしれません。
 
 #### 利点
 
-- 少ないピンで非常にたくさんのキーを接続できる  
-
-  例えば、11個のピンで11(11-1)=110キーが使用でき、フルキーボードのキーをまかなうことができます。  
-  余ったピンを他の機能にまわすことができます。  
+- 少ないピンで非常にたくさんのキーを使用できる  
 
 #### 欠点
 
-- ダイオードの使用数がちょびっと増える  
-- 回路設計の手間がちょっと増える
-- QMKファームウェアの整備の手間が増える  
+- ダイオードの使用数がちょっと増える  
+- 回路設計の手間が少し増える
+- QMKファームウェア整備の手間が多少増える  
 
 
 ### ゴースト回避方法
@@ -253,7 +263,7 @@ SRC += matrix_rr.c
 
 - keyboard.h  
 レイアウトを指定します。  
-ピンとピンの間にスイッチを配置していない箇所は、KC_NOとします。
+スイッチを配置していない箇所はKC_NOとし、2行×3列のレイアウトを作ります。
 
     ```
     #define LAYOUT( \
@@ -273,7 +283,6 @@ SRC += matrix_rr.c
 
 アドカレは一つの夢
 アドカレは貴重な情報源
-[クールなURIは変わらない](https://www.kanzaki.com/docs/Style/URI)
 サンボを聴け
 「売ってないから、自分で作る」という、とても単純なことを本気でやった製作
 1、2年遅れ
