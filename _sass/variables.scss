@@ -1,23 +1,52 @@
+//---- Colors ------------------------------------------------------------------
+// accent colors
+$red:              #ff2800;
+$yellow:           #faf500;
+$green:            #35a16b;
+$blue:             #0041ff;
+$skyblue:          #6cf;
+$pink:             #ff99a0;
+$orange:           #f90;
+$purple:           #9a0079;
+$brown:            #630;
+
+// base colors
+$lightpink:        #ffd1d1;
+$cream:            #ff9;
+$lightyellowgreen: #cbf266;
+$lightskyblue:     #b4ebfa;
+$beige:            #edc58f;
+$lightgreen:       #87e7b0;
+$lightpurple:      #c7b2de;
+
+// no-color
+$white:            #fff;
+$nearwhite:        #f3f3f5;
+$lightgray:        #c8c8cb;
+$gray:             #7f878f;
+$nearblack:        #292929;
+$black:            #000;
+
 // Breakpoints
 $large-breakpoint: 64em !default;
 $medium-breakpoint: 42em !default;
 
 // Headers
-$header-heading-color: #fff !default;
-$header-bg-color: #159957 !default;
-$header-bg-color-secondary: #155799 !default;
+$header-heading-color: $nearwhite !default;
+$header-bg-color: $lightyellowgreen !default;
+$header-bg-color-secondary: $green !default;
 
 // Text
-$section-headings-color: #159957 !default;
-$body-text-color: #606c71 !default;
-$body-link-color: #1e6bb8 !default;
-$blockquote-text-color: #819198 !default;
+$section-headings-color: $nearblack !default;
+$body-text-color: $nearblack !default;
+$body-link-color: $green !default;
+$blockquote-text-color: $gray !default;
 
 // Code
-$code-bg-color: #f3f6fa !default;
-$code-text-color: #567482 !default;
+$code-bg-color: $gray !default;
+$code-text-color: $white !default;
 
 // Borders
-$border-color: #dce6f0 !default;
-$table-border-color: #e9ebec !default;
-$hr-border-color: #eff0f1 !default;
+$border-color: $lightgray !default;
+$table-border-color: $lightgray !default;
+$hr-border-color: $lightgray !default;
