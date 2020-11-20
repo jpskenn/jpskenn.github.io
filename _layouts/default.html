@@ -11,6 +11,14 @@
   <body>
     <header class="page-header">
       <h1 class="project-name"><a href="{{ site.url }}">{{ site.name | default: site.github.repository_name }}</a></h1>
+      <nav class="header-navigation">
+          <ul class="header-navigation-list">
+              <li><a href="{{ site.url }}">ホーム</a></li>
+              <li><a href="{% link _pages/about.md %}">ごあんない</a></li>
+              <li><a href="{% link blog/index.html %}">ブログ</a></li>
+              <li><a href="{% link feature/index.md %}">特集</a></li>
+          </ul>
+      </nav>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}

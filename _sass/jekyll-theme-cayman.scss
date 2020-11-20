@@ -145,6 +145,33 @@ a {
   }
 }
 
+.header-navigation-list {
+    display: table;
+    margin: 0 auto;
+}
+
+.header-navigation-list li {
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center;
+
+    @include large {
+        padding: 0 2rem;
+    }
+
+    @include medium {
+        padding: 0 1.5rem;
+    }
+
+    @include small {
+        padding: 0 1rem;
+    }
+}
+
+.header-navigation-list a {
+    display: block;
+}
+
 .main-content {
   word-wrap: break-word;
 
