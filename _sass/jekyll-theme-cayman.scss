@@ -181,6 +181,31 @@ a {
     color: $section-headings-color;
   }
 
+  h2 {
+    border-left: solid 0.5rem $section-headings-border-color;
+    padding-left: 0.5rem;
+  }
+
+  h3 {
+    border-left: double 0.5rem $section-headings-border-color;
+    padding-left: 0.5rem;
+  }
+
+  h4 {
+    border-left: solid 0.25rem $section-headings-border-color;
+    padding-left: 0.5rem;
+  }
+
+  h5 {
+    border-left: dotted 0.5rem $section-headings-border-color;
+    padding-left: 0.5rem;
+  }
+
+  h6 {
+    border-left: solid 0.25rem $section-headings-border-color;
+    padding-left: 0.75rem;
+  }
+
   p {
     margin-bottom: 1em;
   }
