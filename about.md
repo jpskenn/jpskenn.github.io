@@ -3,7 +3,7 @@ layout: default
 title: ごあんない
 ---
 
-<h1>{{ page.title }}</h1>
+# {{ page.title }}
 
 ## 記事を書いている人
 
