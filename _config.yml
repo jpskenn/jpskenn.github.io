@@ -6,3 +6,7 @@ theme: jekyll-theme-cayman
 
 future: false           # 未来日付の投稿を公開しない
 timezone: Asia/Tokyo    # 日付の基準となるタイムゾーンを指定
+
+collections:
+    feature:
+        output: true
