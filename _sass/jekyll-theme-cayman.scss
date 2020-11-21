@@ -195,6 +195,14 @@ a {
     font-size: 1rem;
   }
 
+  .meta {
+      margin: 0 0 3rem;
+  }
+  .meta-item {
+      display: inline-block;
+      margin: 0 1rem 0 0;
+  }
+
   img {
     max-width: 100%;
   }

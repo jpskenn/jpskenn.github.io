@@ -1,8 +1,18 @@
 ---
 layout: default
 ---
+
 <h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<div class="meta">
+    <p class="meta-item"><time datetime="{{ page.date | date_to_xmlschema }}" >{{ page.date | date: "%Y-%m-%d %H:%M" }}</time></p>
+    <p class="meta-item">{{ page.author }}</p>
+    <div class="meta-tag">
+        <p class="meta-item">Tag: </p>
+        {% for tag in page.tags %}
+            <p class="meta-item" >{{ tag }}</p>
+        {% endfor %}
+    </div>
+</div>
 
 <div class="post">
   {{ content }}
