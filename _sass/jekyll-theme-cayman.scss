@@ -386,21 +386,34 @@ a {
 }
 
 .site-footer {
-  padding-top: 2rem;
-  margin-top: 2rem;
-  border-top: solid 1px $hr-border-color;
+    background-color: $footer-bg-color;
+    border-top: solid 6px $footer-border-top-color;
+    padding-top: 2rem;
+    margin-top: 2rem;
 
-  @include large {
-    font-size: 1rem;
-  }
 
-  @include medium {
-    font-size: 1rem;
-  }
+}
 
-  @include small {
-    font-size: 0.9rem;
-  }
+.site-footer-content {
+    width: auto;
+    color: $footer-heading-color;
+
+    @include large {
+      max-width: 64rem;
+      padding: 2rem 6rem;
+      margin: 0 auto;
+      font-size: 1rem;
+    }
+
+    @include medium {
+      padding: 2rem 4rem;
+      font-size: 1rem;
+    }
+
+    @include small {
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+    }
 }
 
 .site-footer-owner {
