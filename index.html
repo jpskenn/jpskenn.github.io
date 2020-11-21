@@ -1,8 +1,15 @@
 ---
 layout: default
-title: jpskenn on GitHub
+title: ホーム
 ---
-<div class="blurb">
-	<h1>Hi there, I'm jpskenn!</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
+
+<h1>{{ page.title }}</h1>
+<p>"勢いだけでやるページ on GitHub"へようこそ。</p>
+
+<p>主に自分用のメモと記録を、写真と文を交え、記事として蓄積しています。</p>
+
+<ul class="no-list-style">
+    <li><p><a href="{% link about.md %}">ごあんない</a>： このサイトについて</p></li>
+    <li><p><a href="{% link blog/index.html %}">ブログ</a>： ブログ記事</p></li>
+    <li><p><a href="{% link feature.md %}">特集</a>： 何らかのテーマをもつ個別の記事</p></li>
+</ul>
