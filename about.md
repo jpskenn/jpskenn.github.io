@@ -27,5 +27,6 @@ Takeshi Nishio
 
 - ”kkeennnn+blogアットマークgmailどっとcom”  
 （”アットマーク”を”@”へ、”どっと”を”.”へ書き換えてください）
+- [GitHub: jpskenn](https://github.com/jpskenn)
 - [Twitter: @jpskenn](https://twitter.com/jpskenn)
-- [Flickr](https://www.flickr.com/photos/kkeennnn)
+- [Flickr: Takeshi Nishio](https://www.flickr.com/photos/kkeennnn)
