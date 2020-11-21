@@ -147,8 +147,11 @@ a {
 }
 
 .header-navigation-list {
-    display: table;
-    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding-left: 0;
 }
 
 .header-navigation-list li {
@@ -157,15 +160,18 @@ a {
     text-align:center;
 
     @include large {
-        padding: 0 2rem;
+        padding: 0 3rem 0 0;
+        font-size: 1.1rem;
     }
 
     @include medium {
-        padding: 0 1.5rem;
+        padding: 0 1.5rem 0 0;
+        font-size: 1rem;
     }
 
     @include small {
-        padding: 0 1rem;
+        padding: 0 1rem 0 0;
+        font-size: 0.9rem;
     }
 }
 
