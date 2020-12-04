@@ -6,7 +6,7 @@ tags:
 - keyboard
 - advent_calendar
 date: 2020-12-05
-published: false
+published: true
 ---
 
 この記事は [キーボード #2 Advent Calendar 2020](https://adventar.org/calendars/5307) の、5日目の記事です。
