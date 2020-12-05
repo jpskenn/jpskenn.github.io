@@ -13,7 +13,7 @@ published: true
 この記事は [キーボード #2 Advent Calendar 2020](https://adventar.org/calendars/5307) の、5日目の記事です。
 
 前の記事は、s-showさんの”[自作キーボード活動2年目の振り返り](https://kankodori-blog.com/?p=719)”でした。  
-次の記事は、eswaiさんの”今年やったことのまとめ”です。
+次の記事は、eswaiさんの”[エンドゲームに近づいたのか?](https://eswai.hatenablog.com/entry/2020/12/06/022932)”です。
 
 ---
 
