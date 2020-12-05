@@ -10,3 +10,6 @@ timezone: Asia/Tokyo    # 日付の基準となるタイムゾーンを指定
 collections:
     feature:
         output: true
+
+#cayman theme setting
+show_downloads: false
