@@ -11,9 +11,8 @@ date: 2020-12-08
 published: true
 ---
 
-![](/assets/2020-12-07/IMG_2222.jpeg)  
-
-初めておこなったQMKへのプルリクエストについて。
+初めておこなったQMKへのプルリクエストについて。  
+どういう風におこなったのかをメモ。
 
 ## 前書き
 
@@ -22,7 +21,7 @@ published: true
 
 ## masterへコミットしてごめんなさい
 
-1年くらい前に[本家QMKのリポジトリ](https://github.com/qmk/qmk_firmware)からフォークしていたものを使っているが、ErgoDashのキーマップやSU120を使った評価用キーボード、自分で設計したColiceやJonesのファイルを、（いちいちブランチを作ったり切り替えたりするのが面倒になり）**すべてmasterへコミット**していた。
+1年くらい前に”[本家QMKのリポジトリ](https://github.com/qmk/qmk_firmware)”からフォークしていたものを使っているが、ErgoDashのキーマップやSU120を使った評価用キーボード、自分で設計したColiceやJonesのファイルを、（いちいちブランチを作ったり切り替えたりするのが面倒になり）**すべてmasterへコミット**していた。
 
 そのままプルリクすると雑多なものまで送られてしまうため、一度リセットする必要があった。
 
@@ -44,10 +43,19 @@ git checkout [混入前のコミットハッシュ] .gitmodules
 
 
 ## プルリク前
-〓QMK Docのどこを読んで、どうしたらいいか。
-info.json
 
-開発用ブランチ”[develop_Jones](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones)”で色々やっておいて、「よっしゃ、これで完成や！」となったタイミングで、プルリクを出すためのブランチ”[Add-jones-v.0.3-and-v.0.3.1-keyboard](https://github.com/jpskenn/qmk_firmware/tree/Add-jones-v.0.3-and-v.0.3.1-keyboard)”を作成した。
+
+”[QMK キーボードガイドライン](https://docs.qmk.fm/#/ja/hardware_keyboard_guidelines?id=qmk-キーボードガイドライン)”を読み、キーボード、キーマップとして求められるファイルを用意する。
+
+単にキーボードを動作させるためだけだったら必要ないもの、例えば`readme.md`や`info.json`などを追加。  
+`info.json`はKeyboard Layout Editorのデータを元に作成したが、ちゃんとできてるかよくわからない。 QMK Configuratorへ読み込ませてみたが、Jones JPスタイルの逆向きISOエンターがちゃんと表示されない。
+
+次に”[PR チェックリスト](https://docs.qmk.fm/#/ja/pr_checklist?id=pr-チェックリスト)”の”キーマップのPR”と”キーボードのPR”を読み、求められる要件に合わせる。
+
+使っていないレイアウトやコメントアウトした処理を消したり、重複がないようにしたり。  
+LOWERとRAISE同時押しでADJUSTレイヤーにする処理を書き換えたりもした。
+
+以上を開発用ブランチ”[develop_Jones](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones)”で色々やっておいて、「よっしゃ、これで完成や！」となったタイミングで、プルリクを出すためのブランチ”[Add-jones-v.0.3-and-v.0.3.1-keyboard](https://github.com/jpskenn/qmk_firmware/tree/Add-jones-v.0.3-and-v.0.3.1-keyboard)”を作成した。
 
 ## プルリクっ！！
 
@@ -86,9 +94,10 @@ GitHubで、プルリク用ブランチを表示して、”Pull Request”を�
 記入したら”Create pull request”をポチッとして、プルリクを発射。
 
 ## ブルリク後
-〓何が起きて、何をやったか、どこを見たか
 
-プルリク発射から数分以内に、自動チェック”PR Lint Keyboards”でFailとなった。  
+### 自動チェックでFail
+
+プルリク発射から数分以内に、自動チェックの”PR Lint Keyboards”でFailとなった。  
 エラー内容を見てみると、「キーボードのディレクトリに”readme.md”が無い」のが原因だった。
 ```
 ☒ Missing keyboards/jones/v.0.3/readme.md
@@ -108,3 +117,29 @@ Error: Process completed with exit code 2.
 GitHubの自分のqmk_firmwareへpushしてしばらくすると、全てのチェックでOKとなった。
 
 ![](/assets/2020-12-08/add_missing_file.png)  
+
+### レビュー（その1）
+
+自動チェックにパスしてから3日ほどで、最初のレビューがついた。
+
+- 【提案】音楽モードのキーマップ定義を、各キーマップではなく、キーボードのCファイルに移動したら？
+- 【変更】makeオプションの直書きをやめ、yes/noで書くように。
+- 【変更・提案】カスタムマトリクスを、”matrix.c”を丸々入れ替えるのやめて、”lite”形式で読み込むようにできる？
+
+カスタムマトリクスの”lite”化にちょっと手こずったけど、提案・変更依頼の通りの修正をプルリク用ブランチへコミットした。
+
+### レビュー（その2）
+それから半日ほどで、もう1件のレビューがついた。
+
+- 【変更】キーボード名から”.（ドット）”を取り除いてください。
+
+次のように変更して、プルリク用ブランチへコミットした。
+
+- ”v0.3” → ”v03”
+- ”v.0.3.1” → ”v03_1”
+
+### レビュー対応後
+
+作業の流れがよくわからないけれど、”Changes requested”のところから、レビューしてくれた人の右側の”・・・”を押して”Re-request review”をポチッとしておいた。
+
+![](/assets/2020-12-08/changes_requested.png)  
