@@ -138,8 +138,10 @@ GitHubの自分のqmk_firmwareへpushしてしばらくすると、全てのチ�
 - ”v0.3” → ”v03”
 - ”v.0.3.1” → ”v03_1”
 
-### レビュー対応後
+### レビューへの対応後
 
 作業の流れがよくわからないけれど、”Changes requested”のところから、レビューしてくれた人の右側の”・・・”を押して”Re-request review”をポチッとしておいた。
 
 ![](/assets/2020-12-08/changes_requested.png)  
+
+その後2日ほど進展なし。
