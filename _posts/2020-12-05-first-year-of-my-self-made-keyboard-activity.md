@@ -206,7 +206,8 @@ N個のピンで、N(N-1)個のキーを使用することができます。
 
 - ダイオードの使用数がちょっと増える  
 - 回路設計、基板配線の手間が少し増える
-- QMKファームウェア整備作業が多少増える  
+- ~~QMKファームウェア整備作業が多少増える~~  
+    一般的なCOL2ROWの設定でOKなので、整備不要になりました。  
 
 
 ### ゴースト回避方法
@@ -239,23 +240,29 @@ That's it! これだけです。
 
 #### QMKファームウェア整備
 
-- rules.mk  
-カスタムマトリクス関連の指定をおこないます。
+`rules.mk`でのカスタムマトリクス関連の指定は、不要になりました。
 
-    - カスタムマトリクスを使用する設定と、総当たりマトリクス方式でのマトリクススキャン方法を記述した`matrix.c`を読み込む指定を追加します。  
+- rules.mk  
+~~カスタムマトリクス関連の指定をおこないます。~~
+
+    - ~~カスタムマトリクスを使用する設定と、総当たりマトリクス方式でのマトリクススキャン方法を記述した`matrix.c`を読み込む指定を追加します。~~  
         ```
         CUSTOM_MATRIX = yes
         SRC += matrix.c
         ```
 
-    - `matrix.c`を`quantum/matrix.c（※）`を改変して作成し、rules.mkと同じフォルダへ配置します。  
-    [ここ](/assets/2020-12-05/matrix.c)に雑なサンプルを用意しました。  
+    - ~~`matrix.c`を`quantum/matrix.c（※）`を改変して作成し、rules.mkと同じフォルダへ配置します。~~  
+    ~~[ここ](/assets/2020-12-05/matrix.c)に雑なサンプルを用意しました。~~  
 
-        ※：Pro Micro2個の分離型は、`quantum/split_common/matrix.c`を改変します。
+        ~~※：Pro Micro2個の分離型は、`quantum/split_common/matrix.c`を改変します。~~
 
 - config.h  
-使用するピン数と、ピン番号を指定します。  
-総当たりマトリクスでは、ROW、COLともに同じピン数、同じピン番号になります。
+    使用するピン数と、ピン番号を指定します。  
+    総当たりマトリクスでは、ROW、COLともに同じピン数、同じピン番号になります。  
+    `DIODE_DIRECTION`は一般的なマトリクスと同じ`COL2ROW`を指定します。  
+    <br/>
+    Bootmagic liteを使用する場合、ブートローダへ入るためのキーを指定しておきます。  
+    デフォルトではマトリクスの左上(0,0)のキーとなっているため、この作成例の回路では常に押された状態と判定されて、ずっとブートローダに入りっぱなしになってしまいます。
 
     ```
     #define MATRIX_ROWS 3
@@ -263,6 +270,13 @@ That's it! これだけです。
 
     #define MATRIX_ROW_PINS { B3, B2, B6 }
     #define MATRIX_COL_PINS { B3, B2, B6 }
+
+    #define DIODE_DIRECTION COL2ROW
+
+    /* Bootmagic lite用 ブートローダへ入るためのキー指定
+       マトリクスで0行2列の位置（＝左下）を指定する例 */
+    #define BOOTMAGIC_LITE_ROW 0
+    #define BOOTMAGIC_LITE_COLUMN 2
     ```
 
 - keyboard.h  
