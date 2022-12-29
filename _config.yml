@@ -1,6 +1,9 @@
 name: 勢いだけでやるページ on GitHub
 title: 勢いだけでやるページ on GitHub
 markdown: CommonMarkGhPages
+commonmark:
+  options: "UNSAFE"
+  extensions: "strikethrough", "autolink", "table"
 permalink: /blog/:year/:month/:day/:title
 
 theme: jekyll-theme-cayman
