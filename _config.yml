@@ -1,6 +1,6 @@
 name: 勢いだけでやるページ on GitHub
 title: 勢いだけでやるページ on GitHub
-markdown: kramdown
+markdown: CommonMarkGhPages
 permalink: /blog/:year/:month/:day/:title
 
 theme: jekyll-theme-cayman
@@ -15,5 +15,3 @@ collections:
 #cayman theme setting
 show_downloads: false
 
-#Kenn: to parse <details> on Github Pages
-markdown: CommonMarkGhPages
