@@ -15,3 +15,5 @@ collections:
 #cayman theme setting
 show_downloads: false
 
+kramdown:
+    parse_block_html: true
