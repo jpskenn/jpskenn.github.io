@@ -59,7 +59,7 @@ Glove80
 
 みたいなところを意図しています。
 
-![棚のスイッチ](/assets/2022-12-29/IMG_4855.jpeg)  
+![棚のスイッチ](/assets/2022-12-29/_DSF4423.jpeg)  
 2年〜2年半で揃えてきたパーツの一部
 
 <details>
@@ -179,6 +179,9 @@ Choc用キーキャップがつらくてつらすぎ。（前項参照）
 
 [![YouTube: Hirasawa?, Roland MC 101](https://img.youtube.com/vi/2jx3ShFpAl0/0.jpg)  
 YouTube: Hirasawa?, Roland MC 101](https://www.youtube.com/watch?v=2jx3ShFpAl0)
+
+あと、厳密に言うと、僕にとって自作キーボードは趣味ではないのだと思います。  
+〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓
 
 ## まとめ
 
