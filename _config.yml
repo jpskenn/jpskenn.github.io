@@ -14,3 +14,6 @@ collections:
 
 #cayman theme setting
 show_downloads: false
+
+#Kenn: to parse <details> on Github Pages
+markdown: CommonMarkGhPages
