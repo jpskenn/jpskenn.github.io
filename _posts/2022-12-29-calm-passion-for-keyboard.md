@@ -59,6 +59,7 @@ JonesとNoraの左右対称な物理配列（ZをAより外側にして、右手
 みたいなところを意図しています。
 
 <details>
+
 <summary>スイッチ</summary>
 
 リニアのKailh Pro BurgundyとKailh Speed SilverをメインのJonesで使用しています。
@@ -81,6 +82,7 @@ Chocは選択肢が少ないので、タクタイルの有無と、好みの重�
 </details>
 
 <details>
+
 <summary>キーキャップ</summary>
 
 打鍵速度が一番早いのはKATですが、ホームポジションに手を置いたときに心地よいDSSプロファイルが気に入っています。
