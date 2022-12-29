@@ -31,7 +31,7 @@ published: true
 
 ### Jonesの物理配列にハマりすぎて、欲しいキーボードがない
 
-のっけから手前味噌で恐縮なのですが、Jonesの左右対称な物理配列の具合が良すぎて、欲しいキーボードが見つからないというのが一番の要因です。
+のっけから手前味噌で恐縮なのですが、自分が設計・開発した[Jones](https://github.com/jpskenn/Jones)の左右対称な物理配列の具合が良すぎて、欲しいキーボードが見つからないというのが一番の要因です。
 
 ![Jones & Nora, symmetrical layout](/assets/2022-12-29/jones_and_nora.jpeg)  
 JonesとNoraの左右対称な物理配列（ZをAより外側にして、右手側の記号を中央へ）
@@ -51,7 +51,7 @@ Glove80
 
 満足できるレベル（※）のスイッチやキーキャップが揃ってきたので、新製品を取っ替え引っ替えして試さなくてもよくなりました。
 
-2019年11月にErgoDashで自作キーボードデビューしたので、2年〜2年半くらいで揃ったことになります。
+2019年11月に[ErgoDash](https://shop.yushakobo.jp/products/ergodash)で自作キーボードデビューしたので、2年〜2年半くらいで揃ったことになります。
 
 ※満足できるレベル  
 うまく説明できないんですが、
@@ -70,26 +70,28 @@ Glove80
 <details>
 <summary>スイッチ</summary>
 
-リニアのKailh Pro BurgundyとKailh Speed SilverをメインのJonesで使用しています。  
+リニアの[Kailh Pro Burgundy](https://shop.yushakobo.jp/products/kailh-pro)と[Kailh Speed Silver](https://shop.yushakobo.jp/products/kailh-speed)をメインのJonesで使用しています。  
 押し始めは40gくらいで、押し込んで底つきする前に60gを超えてググッと重くなり、しっかりと押し戻してくれるような特性が好みです。
 
 良い具合にルブしてから、上下ハウジングを[セメダイン BBX](https://www.cemedine.co.jp/home/adhesive/bbx/bbx.html)で固定してグラつきを低減させています。  
 どうせ二度とルブしないんだから、フィルムをちまちま挟むよりは接着しちゃった方が楽だろう、という安易な気持ちです。
 
-サブのJonesで使っているサイレントのKailh Silent Pinkはノイズが多めで不満なのですが、ほとんど使わないサブ機なので、実質的には問題なし。
+サブのJonesで使っているサイレントの[Kailh Silent Pink](https://shop.yushakobo.jp/products/kailh-box-silent-switch)はノイズが多めで不満なのですが、ほとんど使わないサブ機なので、実質的には問題なし。
 
-Noraでは、リニアのChoc Crystal Silverを使用しています。  
+[Nora](https://github.com/jpskenn/Nora)では、リニアの[Choc Crystal Silver](https://shop.dailycraft.jp/products/keyswitch_choc_v1_linear)を使用しています。  
 Chocスイッチは選択肢が少ないので、タクタイルの有無と、好みの重さで決まってしまいますね。
 </details>
 
 <details>
 <summary>キーキャップ</summary>
 
+参考：[プロファイル一覧](https://www.keycaps.info)
+
 MX用ではDSSプロファイルが好みです。  
 KATの方が速く打鍵できるのですが、DSSはホームポジションに手を置いたときに心地よいので気に入っています。
 
-Choc用ではシリンドリカル形状のMCCプロファイルが好みです。  
-あまり使い込んでいませんが、実はKailh純正のキーキャップが一番打鍵しやすい気がしています。（打鍵速度は一番でした）
+Choc用ではシリンドリカル形状の[MCCプロファイル](https://shop.yushakobo.jp/products/3694)が好みです。  
+あまり使い込んでいませんが、実は[Kailh純正のキーキャップ](https://shop.yushakobo.jp/products/pg1350cap-doubleshot)が一番打鍵しやすい気がしています。（打鍵速度は一番でした）
 
 GBしたキーキャップの到着待ちがいくつかあるので、しばらくは買わなくても良さそうです。
 </details>
@@ -133,7 +135,7 @@ End Game開発に向けて動き出したのですが、下調べの教材であ
 MXスイッチでは、行ごとに高さの違うCherry, KAT, DSS, MT3プロファイルなどのキーキャップを使うことで、3D的な打鍵のしやすさが向上。
 
 Chocスイッチでは、普通に売ってるキーキャップだと各行が同じ形状しか選べないため、3D的にできなくてつらい。  
-Choc用に売られている3D的なキーキャップは値段がつらい（使用感はめっちゃ良い）。  
+[Choc用に売られている3D的なキーキャップ](https://shop.dailycraft.jp/products/gravity_keycaps)は値段がつらい（使用感はめっちゃ良い）。  
 自分で作るのは加工がつらい。  
 3D的な基板設計はとてもつらい。
 
@@ -185,7 +187,7 @@ Choc用キーキャップがつらくてつらすぎ。（前項参照）
 
 ### 開発の保留で、他の趣味を楽しむ機会が増えた
 
-開発が一旦保留になりパーツ漁りなどもしなくなったので、ゲームをプレイしたり、音楽を作ったり、他の趣味で心が満たされる時間が多くなりました。
+開発が一旦保留になりパーツ漁りなどもしなくなったので、[Horizon Forbidden West](https://www.playstation.com/ja-jp/horizon/)などのゲームをプレイしたり、[Roland MC-101](https://www.roland.com/jp/products/mc-101/)で音楽を作ったり、他の趣味で心が満たされる時間が多くなりました。
 
 [![YouTube: Hirasawa?, Roland MC 101](https://img.youtube.com/vi/2jx3ShFpAl0/0.jpg)  
 YouTube: Hirasawa?, Roland MC 101](https://www.youtube.com/watch?v=2jx3ShFpAl0)
@@ -206,7 +208,7 @@ YouTube: Hirasawa?, Roland MC 101](https://www.youtube.com/watch?v=2jx3ShFpAl0)
 という、単純な内容でした。
 
 生存報告というか、死に損ないの悪あがきというか、何の意味があるのか自分でもよくわからない記事を、構想1ヶ月、執筆4日で書きました。  
-キーボード Advent Calendarに載せてみようかとも思っていたのですが、趣向がちょっと違う気がするし、それよりも何よりも記事を書き終えたのが12月29日で、もうあちらへは載せられませんので、独自に公開しております。
+[アドベントカレンダー](https://scrapbox.io/self-made-kbds-ja/アドベントカレンダー)に載せてみようかとも思っていたのですが、趣向がちょっと違う気がするし、それよりも何よりも記事を書き終えたのが12月29日で、もうあちらへは載せられませんので、独自に公開しております。
 
 ## その他
 
