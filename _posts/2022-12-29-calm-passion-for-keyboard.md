@@ -61,8 +61,10 @@ JonesとNoraの左右対称な物理配列（ZをAより外側にして、右手
 <details>
 <summary>スイッチ</summary>
 
-リニアのKailh Pro BurgundyとKailh Speed SilverをメインのJonesで使用しています。  
-押し始めは軽めの40gくらいで、押し込んで底つきする前にググッと重くなって押し戻してくれるような特性が好みです。  
+リニアのKailh Pro BurgundyとKailh Speed SilverをメインのJonesで使用しています。
+
+押し始めは軽めの40gくらいで、押し込んで底つきする前にググッと重くなって押し戻してくれるような特性が好みです。
+
 良い具合にルブしてから、上下ハウジングをセメダイン[BBX](https://www.cemedine.co.jp/home/adhesive/bbx/bbx.html)で固定してグラつきを低減させています。
 
 サブのJonesで使ってるサイレントのKailh Silent Pinkは、ノイズが多めなのでちょっと不満です。  
@@ -128,6 +130,7 @@ Choc用の3D的なキーキャップは値段がつらい（使用感はめっ�
 3D的な基板設計はとてもつらい。
 
 ![MBK keycap, Modified for height adjustment](/assets/2022-12-29/IMG_4017.jpeg)
+
 ”QTYP”キーの打鍵しやすさ向上のため、MBKキーキャップに3D的な加工（2枚重ねして角を削る）をおこなった例
 </details>
 
