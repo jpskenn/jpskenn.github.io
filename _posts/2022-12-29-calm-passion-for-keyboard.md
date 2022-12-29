@@ -15,7 +15,9 @@ published: true
 開発関連のネタや新製品の情報などを追いかけることも無くなり、Twitterやコミュニティの閲覧もやめてしまっています。  
 「QMKのBreaking ChangeでRemapがやばい」なんて話題もTALPKEYBOARDさんのニュースメールで初めて知ったというありさまです。
 
-<small>「うちのローカル環境のQMKは”0.16.9”です」と言えば、どのあたりで止まっているか伝わるでしょうか？</small>
+![QMK version](/assets/2022-12-29/qmk_version.png)
+
+”0.16.9”で止まっているローカル環境のQMK
 
 さて、この記事では、キーボード熱が少し落ち着いた、その気分的なところを少し書いてみようと思います。
 
@@ -37,7 +39,7 @@ published: true
 
 <small>同じ3D系の[Advantage 360](https://kinesis-ergo.com/keyboards/advantage360/)は、初回の供給数が少なすぎて朝起きたらすべて終わっていました。</small>
 
-![Jones & Nora, symmetrical layout](/assets/2022-12-29/_DSF3262.jpeg)
+![Jones & Nora, symmetrical layout](/assets/2022-12-29/jones_and_nora.jpeg)
 
 JonesとNoraの左右対称な物理配列（ZをAより外側にして、右手側の記号を中央へ）
 
