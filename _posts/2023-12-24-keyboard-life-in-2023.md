@@ -5,7 +5,7 @@ author: Takeshi Nishio
 tags:
 - keyboard
 date: 2022-12-24
-published: true
+published: false
 ---
 
 この記事はキーボード Advent Calendar 2023とは（たぶん）無関係の記事です。
