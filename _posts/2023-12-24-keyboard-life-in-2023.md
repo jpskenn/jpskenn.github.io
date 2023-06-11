@@ -4,7 +4,7 @@ title: 2023年のキーボード生活
 author: Takeshi Nishio
 tags:
 - keyboard
-date: 2023-12-24
+date: 2022-12-24
 published: true
 ---
 
