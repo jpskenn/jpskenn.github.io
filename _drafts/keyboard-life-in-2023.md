@@ -4,8 +4,8 @@ title: 2023年のキーボード生活
 author: Takeshi Nishio
 tags:
 - keyboard
-date: 2023-12-24
-published: false
+#date: 2023-12-24
+published: true
 ---
 
 この記事はキーボード Advent Calendar 2023とは（たぶん）無関係の記事です。
@@ -18,11 +18,30 @@ published: false
 昨年の今頃は、”[キーボード熱が少し落ち着いている話](https://jpskenn.github.io/blog/2022/12/29/calm-passion-for-keyboard)”という近況報告的な記事を書きましたが、今年も年末の振り返りとして記事を書こうと思います。  
 （記事の内容は、6月くらいからちょいちょい下書きしています。）
 
-## 今年買った、作ったキーボード
+## 今年のキーボード話
 
-### [Glove80](https://www.moergo.com)
+### 今年になる前からSandyに手をつけ始めていた
 
-<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="ja" dir="ltr">帰ってきたら不在通知が入ってて、佐川さんに電話したら10分くらいで持ってきてくれたりして、Glove80、もう来ちゃいました。 <a href="https://t.co/hKKghQgGpa">pic.twitter.com/hKKghQgGpa</a></p>&mdash; Takeshi Nishio (@jpskenn) <a href="https://twitter.com/jpskenn/status/1638459868058390528?ref_src=twsrc%5Etfw">March 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+今年と言いつつ、今年になる前の話から始まります。
+
+昨年、2022年は、[Jones（ジョーンズ）](https://github.com/jpskenn/Jones)のレイアウトが具合良すぎて、End Gameな気分でいました。  
+しかし、人差し指での`Y`がもう少し近いと良いなぁとか、小指での`P`が手前のキーに指が当たって打鍵しづらいなど、平面的なキー配置では最適化に限界があると感じており、なんとなく手をつけ始めたのが[Sandy（サンディ）](https://github.com/jpskenn/Sandy)です。
+
+昨年、2022年12月の末、Jonesのキーキャップを部分的に取り替えてテストするところから開発は始まりました。
+![Jonesのキーキャップを部分的に取り替えたテスト機](/assets/2023-12-24/IMG_4862.jpeg)
+
+このテストが続いている間に、Glove80が届きました。
+
+### [Glove80](https://www.moergo.com), 2023年3月下旬
+
+2022年2月にKickstarterでバックして、待つこと1年。  
+始めての3D
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">まだ手のポジションが定まりませんが <a href="https://twitter.com/hashtag/Glove80?src=hash&amp;ref_src=twsrc%5Etfw">#Glove80</a> でWPM 70くらいは出るようになってきました。<br>親指のModやBS、Enterなどにまだ慣れなくて、こんなツイートをするだけでも、かなりの苦労＆苦痛です☹️<br><br>その他、いろいろ思うことも多いので、ちょいちょいメモしながら使ってます。 <a href="https://t.co/t5H4dmFasO">pic.twitter.com/t5H4dmFasO</a></p>&mdash; Takeshi Nishio (@jpskenn) <a href="https://twitter.com/jpskenn/status/1639393715881123840?ref_src=twsrc%5Etfw">March 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Glove80のよいとこ、わるいとこ
+
+monkeytypeでWPM70ちょいくらいが出せるようになった頃、Sandyの試作1号基板が到着しました。
+![Glove80でのmonkeytype計測結果](/assets/2023-12-24/IMG_5022.jpeg)
 
 ### Sandy
 
