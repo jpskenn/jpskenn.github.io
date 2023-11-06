@@ -20,7 +20,7 @@ published: true
 
 ## 今年のキーボード話
 
-### [Sandy（サンディー）](https://github.com/jpskenn/sandy)の開発（はじまり）, 2022年12月末
+### [Sandy（サンディー）](https://github.com/jpskenn/sandy)の開発（はじまり編）, 2022年12月末
 
 昨年、2022年は、
 
@@ -63,7 +63,9 @@ Glove80のよいとこ、わるいとこ
 monkeytypeでWPM70ちょいくらいが出せるようになった頃、Sandyの試作1号基板が到着しました。
 ![Glove80でのmonkeytype計測結果](/assets/2023-12-24/IMG_5022.jpeg)
 
-### [Sandy（サンディ）](https://github.com/jpskenn/Sandy)
+### [Sandy（サンディ）](https://github.com/jpskenn/Sandy)の開発（リリース編）
+
+Glove80より、Sandyの方が断然打鍵しやすかったので、Sandyに全振り
 
 ## 親指まわりのレイアウト変更（SandS, 親指Ctrl）
 
