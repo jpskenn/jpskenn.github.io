@@ -102,10 +102,11 @@ MacはCmdキーがWindowsのCtrlキー的な役割なので、そのままでも
 
 今年、他に使ったスイッチに1行ずつコメント。
 
+- Jwick V2 フルナイロンブラック リニア：スムース。ちょっと軸ブレ
 - Kailh Midnight Silent V2：トップハウジングへ貼りつく症状
 - Kailh Deep Sea（タクタイル）：そうでもない
 - WS Silent Linear：値段が安い割に高性能。安い（2回目）
-- Tecsee Pudding Medium（リニア，タクタイル）：普通のスイッチだが、ミディアムハイトが何よりの強み。意外と静か
+- Tecsee Pudding Medium（リニア，タクタイル）：普通のスイッチだが、高さが低い（ミディアムハイト）のが何よりの強み。意外と静か
 
 〓他には？
 
