@@ -44,6 +44,15 @@ Jonesのキーキャップを部分的に取り替えたテスト機
 
 ### [Glove80](https://www.moergo.com), 2023年3月下旬
 
+2022年2月にKickstarterでバックして、待つこと1年。  
+2023年の1月～2月頃に「パイロット版を先行して出荷している」というレポートを読みつつのんびりと待っていると、3月下旬にいきなり届きました。
+
+「3D形状的にキーが配置されたものが究極のキーボードではなかろうか？」と考えており、
+
+キーボードの究極的な形は、各個人の手の大きさや指の長さに合わせてカスタマイズされた、3D形状的にキーが配置された形状だと考えています。
+
+（普通のキーボードも、行ごとにキーキャップの高さが変えてあるのだから、少しは3D形状に打鍵しやすくしようとしていると言える）
+
 物理レイアウトが3Dなキーボード（単一平面上ではなく、縦×横×高さの、に配置があること
 
 〓なんでGlove80にしたのか（＝なんで3Dなキーボードにしたのか）〓
@@ -53,9 +62,6 @@ Dactyl系は、3Dプリンタで自分好みにカスタマイズ＆プリント
 Advantage360は売り切れで買えなかった＆正式販売までけっこう待つみたいだった
 Advantage2はでかすぎ（真ん中部分やFキーは不要）
 
-
-2022年2月にKickstarterでバックして、待つこと1年。  
-2023年の1月～2月頃に「パイロット版を先行して出荷している」というレポートを読みつつのんびりと待っていると、3月下旬にいきなり届きました。
 
 始めての3D
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">まだ手のポジションが定まりませんが <a href="https://twitter.com/hashtag/Glove80?src=hash&amp;ref_src=twsrc%5Etfw">#Glove80</a> でWPM 70くらいは出るようになってきました。<br>親指のModやBS、Enterなどにまだ慣れなくて、こんなツイートをするだけでも、かなりの苦労＆苦痛です☹️<br><br>その他、いろいろ思うことも多いので、ちょいちょいメモしながら使ってます。 <a href="https://t.co/t5H4dmFasO">pic.twitter.com/t5H4dmFasO</a></p>&mdash; Takeshi Nishio (@jpskenn) <a href="https://twitter.com/jpskenn/status/1639393715881123840?ref_src=twsrc%5Etfw">March 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
