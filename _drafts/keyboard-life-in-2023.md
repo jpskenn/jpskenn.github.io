@@ -57,21 +57,21 @@ Jonesのキーキャップを部分的に取り替えたテスト機
 始めての3D
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">まだ手のポジションが定まりませんが <a href="https://twitter.com/hashtag/Glove80?src=hash&amp;ref_src=twsrc%5Etfw">#Glove80</a> でWPM 70くらいは出るようになってきました。<br>親指のModやBS、Enterなどにまだ慣れなくて、こんなツイートをするだけでも、かなりの苦労＆苦痛です☹️<br><br>その他、いろいろ思うことも多いので、ちょいちょいメモしながら使ってます。 <a href="https://t.co/t5H4dmFasO">pic.twitter.com/t5H4dmFasO</a></p>&mdash; Takeshi Nishio (@jpskenn) <a href="https://twitter.com/jpskenn/status/1639393715881123840?ref_src=twsrc%5Etfw">March 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Glove80のよいとこ、わるいとこ
+アルファ部はあまり意識しなくても打鍵できましたが、親指に配置したModやBS、Enterの打鍵に苦労しました。
+まぁ、これはGlove80の問題ではありませんが。
 
 #### Glove80の良いところ
 
-- 技適ありBluetooth。
+- 技適ありBluetoothなので、何も心配いらない。
+    Macとの接続は、普通につながって使えている。
 - キーマップ書き換えツールで、簡単に書き換えできる。
 - オプションのパームレスト装着により、安定したポジションで構えることができる。
 
 #### Glove80の悪いところ
 
 - パームレストを含めたフットプリントがそこそこ大きいので、意外と場所を取る。
-
     60%キーボードよりも上下・左右ともに大きい。  
     マウスやトラックパッドの置き場所が遠くなる。
-
 - パームレストの高さ（数cm）だけ机から腕を上げる必要があり、前腕を机に乗せた打鍵ができず、疲れる。（元々、前腕は机につけずに打鍵するのが正しいようだが…）
 - パームレストで手が安定したポジションに落ち着くのは良いが、逆に、ホームポジションから手をずらして打鍵しないといけない場合に、手をずらしにくい。
 - 3D形状になったとは言え、カラムスタガの場合と同様に、自分の手に合わない部分が非常に打鍵しにくい。
