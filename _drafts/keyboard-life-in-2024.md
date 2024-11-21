@@ -16,20 +16,29 @@ published: false
 
 1年半ぶりに*End Game*を更新した[SandyLP](https://github.com/jpskenn/SandyLP)の紹介と、ちまちま書いていたメモを読み返したら自分に刺さりまくった話です。
 
+TODOメモを読み返して、技術的というよりも、精神的なことを再確認した感じ？
+
 ## SandyLP（サンディ エルピー）
 
-今年、2024年10月に[SandyLP（サンディー エルピー）](https://github.com/jpskenn/SandyLP)が完成しました。
+今年、2024年10月、左右対称ロスタッガードな所謂Jones配列（※）の最新版として[SandyLP（サンディー エルピー）](https://github.com/jpskenn/SandyLP)が完成しました。  
+<small>※自分で”Jones配列”と言い始めたわけではないのですが、キボ界隈からそう呼ばれていて記述もしやすい呼称なので使わせてもらっています。</small>
 
 ![SandyLPビルド例](../assets/2024-12-24/DSC_8161.jpeg)
 
 ![SandyLPビルド例](../assets/2024-12-24/DSCF5294.jpeg)
 
-スイッチを立体的に配置した[Sandy（サンディー）](https://github.com/jpskenn/Sandy)の改良版として、約1年半ぶりの新作となります。  
+Jones配列のキーボードは、
+2020年8月 左右対称ロスタッガード60%の”[Jones（ジョーンズ）](https://github.com/jpskenn/Jones)”、  
+2022年1月 Jonesをロープロファイル狭ピッチにした姉妹機”[Nora（ノラ）](https://github.com/jpskenn/Nora)”、  
+2023年4月 Jonesのスイッチを立体的に配置した進化版”[Sandy（サンディー）](https://github.com/jpskenn/Sandy)”、  
+と開発を続け、  
+そして今回、Sandyをロープロ40%にした改良版”[SandyLP（サンディー エルピー）](https://github.com/jpskenn/SandyLP)”として、約1年半ぶりの新作となります。  
+
 ざっくりとした変更点は…
 
 - スイッチをMXからChoc V2に変えて、キーボード全体を低く。
 - レイアウトを60%から40%へサイズダウン。  
-- MCUをATmega32u4からRP2040に変更。  
+- 直付けMCUをATmega32u4からRP2040に変更。  
 
 といったところですが、細かいところも含め、前作Sandyから得られた経験を可能な限りフィードバックしたので、SandyLPが完成した瞬間から新たな*End Game*が始まりました。  
 
