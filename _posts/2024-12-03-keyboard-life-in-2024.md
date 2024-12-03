@@ -23,9 +23,9 @@ RP2040を基板直乗せするとか、ケーブルを使わずにネジとス�
 
 ## 自キ道？
 
-数年前、[Jones](https://github.com/jpskenn/Jones)の開発中に、右手側のアルファ部を2キー分外へずらしたレイアウトを思いつきました。
+数年前、[Jones](https://github.com/jpskenn/Jones)の開発中に、右手のアルファ部を外側へずらしたレイアウトを思いつきました。
 
-![2キー分外へずらしたレイアウト](/assets/2024-12-05/wide_layout.png)
+![アルファ部を外側へずらしたレイアウト](/assets/2024-12-05/wide_layout.png)
 
 このレイアウトには、EnterやBackspaceが打鍵しやすいとか、肩が楽になるといったメリットがありましたが、自作キーボードにありがちな「YとBの右手？左手？問題」にぶつかってしまいました。  
 <small>今では考えられないことですが、その頃（2020年）の僕は、たまにYを左手で打鍵する癖がありました。</small>
@@ -54,7 +54,7 @@ RP2040を基板直乗せするとか、ケーブルを使わずにネジとス�
 
 キーボードには打鍵感やレイアウトなどたくさんの要素がありますが、僕は自分が使いやすいレイアウトに早くたどり着きたいと思って活動しています。
 
-### キーは上から押すだけだと思っていないか？
+## キーは上から押すだけだと思っていないか？
 
 [Sandy](https://github.com/jpskenn/sandy)の使用感を記録したメモに、
 
@@ -68,7 +68,7 @@ RP2040を基板直乗せするとか、ケーブルを使わずにネジとス�
 これを拡大解釈すると、「キーは斜めに押しても入力できる」という理論が導き出されます。
 
 この理論を実際の動作に応用すると、次の動画のようになります。  
-（指の動きが見えるように、ホームポジションから手をずらして撮影しています。）
+<small>（指の動きが見えるように、ホームポジションから手をずらして撮影しています。）</small>
 
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">アドカレネタ <a href="https://t.co/tJreHhqj1g">pic.twitter.com/tJreHhqj1g</a></p>&mdash; Takeshi Nishio (@jpskenn) <a href="https://twitter.com/jpskenn/status/1863915297092293021?ref_src=twsrc%5Etfw">December 3, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -78,10 +78,10 @@ https://github.com/user-attachments/assets/7f23591e-8581-4c61-b161-3ef6f9905187
 親指を曲げて横方向に動かすだけで、下方向にキーが押し込まれています。  
 
 先程導き出した理論は間違いでしたね。  
-正しくは、**「キーは横に押しても入力できる」**となります。  
+正しくは、「**キーは横に押しても入力できる**」となります。  
 使い所が限られるのでご注意ください。
 
-<small>スイッチは、低いキーがメモに出てきた`Tecsee Pudding Medium Linear`で、高いキーは`Kailh Deep Sea Silent`。
+<small>スイッチは、低いキーがメモに出てきたTecsee Pudding Medium Linearで、高いキーはKailh Deep Sea Silentです。
 キーキャップは[G20プロファイル](https://spkeyboards.com/search?q=g20&options%5Bprefix%5D=last)の1.25uです。</small>
 
 ## 数日寝かせると命拾いする
