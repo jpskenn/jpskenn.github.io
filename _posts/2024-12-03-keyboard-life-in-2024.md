@@ -77,6 +77,8 @@ RP2040を基板直乗せするとか、ケーブルを使わずにネジとス�
 
 この理論を実際の動作に応用すると、次のようになります。
 
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">アドカレネタ <a href="https://t.co/tJreHhqj1g">pic.twitter.com/tJreHhqj1g</a></p>&mdash; Takeshi Nishio (@jpskenn) <a href="https://twitter.com/jpskenn/status/1863915297092293021?ref_src=twsrc%5Etfw">December 3, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 https://github.com/user-attachments/assets/7f23591e-8581-4c61-b161-3ef6f9905187
 
 これは、段差をつけたキーの側面から天面の角あたりへ親指をヒットさせて、スイッチを押下している様子です。
