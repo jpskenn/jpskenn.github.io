@@ -10,7 +10,9 @@ published: true
 
 この記事は[**キーボード #2 Advent Calendar 2024**](https://adventar.org/calendars/10116)の5日目の記事です。
 
-昨日は🌧️2d0さんの「"kokken72"についてのお話を」でした。  
+昨日は🌧️2d0さんの「["kokken72"についてのお話を](https://note.com/_2d0_/n/n91f233c92a46)」でした。  
+ハード・ソフト両方へのこだわりが、そのまま形にできている技術力に脱帽です。
+
 明日はis_wateringさんの「今年設計したキーボードについて」です。
 
 ---
