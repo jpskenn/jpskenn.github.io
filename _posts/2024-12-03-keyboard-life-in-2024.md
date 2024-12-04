@@ -4,7 +4,7 @@ title: 自キにまつわる気持ちの問題と、1年半ぶりにEnd Gameを�
 author: Takeshi Nishio
 tags:
 - keyboard
-date: 2024-12-03
+date: 2024-12-05
 published: true
 ---
 
