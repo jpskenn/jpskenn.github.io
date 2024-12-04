@@ -17,9 +17,9 @@ published: true
 
 ---
 
-RP2040を基板直乗せするとか、ケーブルを使わずにネジとスペーサーで導通させるとか、Vialなファームウェアの作り方とか、すでにどこかで説明されているので技術的なネタがありません。
+RP2040を基板直乗せするとか、Vialなファームウェアの作り方とか、すでにどこかで説明されているので技術的なネタがありません。
 
-というわけで、自キにまつわる気持ちの問題（精神論的な何か）をいくつかと、1年半ぶりに*End Game*を更新した[SandyLP](https://github.com/jpskenn/SandyLP)について書きます。
+というわけで、自キにまつわる気持ちの問題（精神論的な何か）をいくつかと、1年半ぶりに*End Game*を更新した[SandyLP](https://github.com/jpskenn/SandyLP)について書こうと思います。
 
 ## 自キ道？
 
@@ -97,7 +97,7 @@ https://github.com/user-attachments/assets/7f23591e-8581-4c61-b161-3ef6f9905187
 
 ## SandyLP（サンディ エルピー）のご紹介
 
-今年、2024年10月、左右対称ロウスタッガードな所謂Jones配列（※）の最新版として[SandyLP（サンディー エルピー）](https://github.com/jpskenn/SandyLP)が完成しました。  
+今年の10月、左右対称ロウスタッガードな所謂Jones配列（※）の最新版として[**SandyLP（サンディー エルピー）**](https://github.com/jpskenn/SandyLP)が完成しました。  
 <small>※自分で「Jones配列」と言い始めたわけではないのですが、キボ界隈からそう呼ばれていて記述もしやすい呼称なので使わせてもらっています。</small>
 
 ![SandyLPビルド例](/assets/2024-12-05/DSC_8161.jpeg)
@@ -106,20 +106,23 @@ https://github.com/user-attachments/assets/7f23591e-8581-4c61-b161-3ef6f9905187
 
 ![SandyLP基板裏面](/assets/2024-12-05/IMG_6834.jpeg)
 
-特徴は次のとおりです。（詳しくは[こちら](https://github.com/jpskenn/SandyLP)）
-
 - 左右対称ロウスタッガードな40%レイアウト
 - スイッチを立体的に配置
 - キーボード全体がそこそこ低い（Choc V2スイッチ使用）
 
-前作の[Sandy（サンディー）](https://github.com/jpskenn/Sandy)も*End Game*で1年半ほど使い続けてきたのですが、そのSandyから得られた経験を可能な限りフィードバックしたので、SandyLPが完成した瞬間から新たな*End Game*が始まることになりました。  
+というのが特徴です。（詳しくは[こちら](https://github.com/jpskenn/SandyLP)）
 
-Choc V2スイッチとキーキャップとの干渉を心配していたのですが、お気に入りのキーキャップは以下の組み合わせで使えているので助かっています。  
-<small>（KATは少しスイッチに当たってるかも？だけど、気にならないレベル。）</small>
+前作の[Sandy（サンディー）](https://github.com/jpskenn/Sandy)も*End Game*として1年半ほど使い続けてきたのですが、その1年半で得られた経験を可能な限り開発にフィードバックしたので、SandyLPが完成した瞬間から新たな*End Game*が始まることになりました。  
+
+枯れた技術を使うようにしているので今回の開発に新しい技術はないのですが、RP2040の基板直乗せや、基板間の電気的接続をすべて金属スペーサーによる導通に変更したことは、開発におけるチャレンジングな部分でした。
+
+また、使用するパーツとしてChoc V2スイッチとキーキャップとの干渉を心配していたのですが、お気に入りのキーキャップは以下の組み合わせで使えており、助かっています。  
 
 - Kailh Deep Sea Silent MINI + Signature Plastics, DSS, Solarized Dark
 - Kailh Deep Sea Silent MINI + ePBT, Cherry, Less But Better
 - Kailh Lofree FLOW GHOST + Keyreative, KAT, Space Cadet
+
+<small>（KATは少しスイッチに当たってるかも？ですが、気にならないレベル。）</small>
 
 今後はケースの設計に手を出したりしつつ、*End Game*という長期ロードテストを楽しんでいこうと思っています。
 
