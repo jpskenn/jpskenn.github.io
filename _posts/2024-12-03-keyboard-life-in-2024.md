@@ -16,6 +16,7 @@ published: true
 明日はis_wateringさんの「今年設計したキーボードについて」です。
 
 ---
+
 ## まえがき・もくじ
 
 RP2040を基板直乗せするとか、Vialなファームウェアの作り方とか、すでにどこかで解説されているので技術的なネタがありません。
@@ -95,6 +96,7 @@ B: あなたにぴったりフィットするレイアウト ＋ ガサガサ・
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">アドカレネタ <a href="https://t.co/tJreHhqj1g">pic.twitter.com/tJreHhqj1g</a></p>&mdash; Takeshi Nishio (@jpskenn) <a href="https://twitter.com/jpskenn/status/1863915297092293021?ref_src=twsrc%5Etfw">December 3, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 https://github.com/user-attachments/assets/7f23591e-8581-4c61-b161-3ef6f9905187
+（上の動画が見れない時用）
 
 これは、段差をつけたキーの側面から天面の角あたりへ親指を当て、キーを押下している様子です。  
 親指を曲げて横方向に動かすだけで、下方向にキーが押し込まれています。  
@@ -119,7 +121,7 @@ https://github.com/user-attachments/assets/7f23591e-8581-4c61-b161-3ef6f9905187
 
 ## SandyLP（サンディ エルピー）のご紹介
 
-今年の10月、左右対称ロウスタッガードな所謂Jones配列（※）の最新版として[**SandyLP（サンディー エルピー）**](https://github.com/jpskenn/SandyLP)が完成しました。  
+今年の10月、左右対称ロウスタッガードな所謂Jones配列（※）の最新版として[**SandyLP（サンディ エルピー）**](https://github.com/jpskenn/SandyLP)が完成しました。  
 <small>※自分で「Jones配列」と言い始めたわけではないのですが、キボ界隈からそう呼ばれていて記述もしやすい呼称なので使わせてもらっています。</small>
 
 ![SandyLPビルド例](/assets/2024-12-05/DSC_8161.jpeg)
@@ -134,7 +136,7 @@ https://github.com/user-attachments/assets/7f23591e-8581-4c61-b161-3ef6f9905187
 
 というのが特徴です。（詳しくは[こちら](https://github.com/jpskenn/SandyLP)）
 
-前作の[Sandy（サンディー）](https://github.com/jpskenn/Sandy)も*End Game*として1年半ほど使い続けてきたのですが、その1年半で得られた経験を可能な限り開発にフィードバックしたので、SandyLPが完成した瞬間から新たな*End Game*が始まることになりました。  
+前作の[Sandy（サンディ）](https://github.com/jpskenn/Sandy)も*End Game*として1年半ほど使い続けてきたのですが、その1年半で得られた経験を可能な限り開発にフィードバックしたので、SandyLPが完成した瞬間から新たな*End Game*が始まることになりました。  
 
 枯れた技術を使うようにしているので今回の開発に新しい技術はないのですが、RP2040の基板直乗せや、基板間の電気的接続をすべて金属スペーサーによる導通に変更したことは、開発におけるチャレンジングな部分でした。
 
