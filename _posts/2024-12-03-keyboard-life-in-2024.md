@@ -13,7 +13,7 @@ published: true
 昨日は🌧️2d0さんの「["kokken72"についてのお話を](https://note.com/_2d0_/n/n91f233c92a46)」でした。  
 ハード・ソフト両方へのこだわりが、そのまま形にできている技術力に脱帽です。
 
-明日はis_wateringさんの「今年設計したキーボードについて」です。
+明日はis_wateringさんの「[今年設計したキーボードについて](https://ryomemo.roo0.com/view/self-made-keyboard-summary-2024)」です。
 
 ---
 
